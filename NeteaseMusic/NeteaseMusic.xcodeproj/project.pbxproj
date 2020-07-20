@@ -26,6 +26,20 @@
 		447FB63924C523870080980C /* CycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447FB63824C523870080980C /* CycleView.xib */; };
 		447FB63C24C524880080980C /* ViewCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB63A24C524880080980C /* ViewCycleCell.swift */; };
 		447FB63D24C524880080980C /* ViewCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447FB63B24C524880080980C /* ViewCycleCell.xib */; };
+		44E67A7F24C54376002C278F /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A7E24C54376002C278F /* CommonView.swift */; };
+		44E67A8124C54381002C278F /* CommonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A8024C54381002C278F /* CommonView.xib */; };
+		44E67A8424C5441F002C278F /* CommonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A8224C5441F002C278F /* CommonViewCell.swift */; };
+		44E67A8524C5441F002C278F /* CommonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A8324C5441F002C278F /* CommonViewCell.xib */; };
+		44E67A8824C550C6002C278F /* RecommendSongViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A8624C550C6002C278F /* RecommendSongViewCell.swift */; };
+		44E67A8924C550C6002C278F /* RecommendSongViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A8724C550C6002C278F /* RecommendSongViewCell.xib */; };
+		44E67A8C24C552F6002C278F /* SongEntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A8A24C552F6002C278F /* SongEntityCell.swift */; };
+		44E67A8D24C552F6002C278F /* SongEntityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A8B24C552F6002C278F /* SongEntityCell.xib */; };
+		44E67A9024C561CB002C278F /* RecommendEntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A8E24C561CB002C278F /* RecommendEntityCell.swift */; };
+		44E67A9124C561CB002C278F /* RecommendEntityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A8F24C561CB002C278F /* RecommendEntityCell.xib */; };
+		44E67A9424C56393002C278F /* RecommendEntityDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A9224C56393002C278F /* RecommendEntityDetailCell.swift */; };
+		44E67A9524C56393002C278F /* RecommendEntityDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A9324C56393002C278F /* RecommendEntityDetailCell.xib */; };
+		44E67A9824C59BD7002C278F /* MusicCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E67A9624C59BD7002C278F /* MusicCalendarCell.swift */; };
+		44E67A9924C59BD7002C278F /* MusicCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E67A9724C59BD7002C278F /* MusicCalendarCell.xib */; };
 		ADE73C6FB41D7048D383CF92 /* Pods_NeteaseMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6BDF0666E6358C2449CEF6 /* Pods_NeteaseMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +66,20 @@
 		447FB63824C523870080980C /* CycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CycleView.xib; sourceTree = "<group>"; };
 		447FB63A24C524880080980C /* ViewCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCycleCell.swift; sourceTree = "<group>"; };
 		447FB63B24C524880080980C /* ViewCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCycleCell.xib; sourceTree = "<group>"; };
+		44E67A7E24C54376002C278F /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
+		44E67A8024C54381002C278F /* CommonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonView.xib; sourceTree = "<group>"; };
+		44E67A8224C5441F002C278F /* CommonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewCell.swift; sourceTree = "<group>"; };
+		44E67A8324C5441F002C278F /* CommonViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonViewCell.xib; sourceTree = "<group>"; };
+		44E67A8624C550C6002C278F /* RecommendSongViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSongViewCell.swift; sourceTree = "<group>"; };
+		44E67A8724C550C6002C278F /* RecommendSongViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendSongViewCell.xib; sourceTree = "<group>"; };
+		44E67A8A24C552F6002C278F /* SongEntityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongEntityCell.swift; sourceTree = "<group>"; };
+		44E67A8B24C552F6002C278F /* SongEntityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongEntityCell.xib; sourceTree = "<group>"; };
+		44E67A8E24C561CB002C278F /* RecommendEntityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendEntityCell.swift; sourceTree = "<group>"; };
+		44E67A8F24C561CB002C278F /* RecommendEntityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendEntityCell.xib; sourceTree = "<group>"; };
+		44E67A9224C56393002C278F /* RecommendEntityDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendEntityDetailCell.swift; sourceTree = "<group>"; };
+		44E67A9324C56393002C278F /* RecommendEntityDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendEntityDetailCell.xib; sourceTree = "<group>"; };
+		44E67A9624C59BD7002C278F /* MusicCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCalendarCell.swift; sourceTree = "<group>"; };
+		44E67A9724C59BD7002C278F /* MusicCalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCalendarCell.xib; sourceTree = "<group>"; };
 		9A6BDF0666E6358C2449CEF6 /* Pods_NeteaseMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeteaseMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE41F68919FAC1BA4BE0F9F /* Pods-NeteaseMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusic.debug.xcconfig"; path = "Target Support Files/Pods-NeteaseMusic/Pods-NeteaseMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +278,20 @@
 				447FB63B24C524880080980C /* ViewCycleCell.xib */,
 				44718B8224C526240051730C /* DiscoveryTopViewCell.swift */,
 				44718B8324C526240051730C /* DiscoveryTopViewCell.xib */,
+				44E67A7E24C54376002C278F /* CommonView.swift */,
+				44E67A8024C54381002C278F /* CommonView.xib */,
+				44E67A8224C5441F002C278F /* CommonViewCell.swift */,
+				44E67A8324C5441F002C278F /* CommonViewCell.xib */,
+				44E67A8624C550C6002C278F /* RecommendSongViewCell.swift */,
+				44E67A8724C550C6002C278F /* RecommendSongViewCell.xib */,
+				44E67A8A24C552F6002C278F /* SongEntityCell.swift */,
+				44E67A8B24C552F6002C278F /* SongEntityCell.xib */,
+				44E67A8E24C561CB002C278F /* RecommendEntityCell.swift */,
+				44E67A8F24C561CB002C278F /* RecommendEntityCell.xib */,
+				44E67A9224C56393002C278F /* RecommendEntityDetailCell.swift */,
+				44E67A9324C56393002C278F /* RecommendEntityDetailCell.xib */,
+				44E67A9624C59BD7002C278F /* MusicCalendarCell.swift */,
+				44E67A9724C59BD7002C278F /* MusicCalendarCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -415,10 +457,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				447FB63924C523870080980C /* CycleView.xib in Resources */,
+				44E67A9524C56393002C278F /* RecommendEntityDetailCell.xib in Resources */,
+				44E67A8524C5441F002C278F /* CommonViewCell.xib in Resources */,
 				447FB63D24C524880080980C /* ViewCycleCell.xib in Resources */,
 				440059C224C1AB9600B31AE9 /* LaunchScreen.storyboard in Resources */,
+				44E67A9924C59BD7002C278F /* MusicCalendarCell.xib in Resources */,
 				440059BF24C1AB9600B31AE9 /* Assets.xcassets in Resources */,
 				44718B8524C526240051730C /* DiscoveryTopViewCell.xib in Resources */,
+				44E67A8924C550C6002C278F /* RecommendSongViewCell.xib in Resources */,
+				44E67A9124C561CB002C278F /* RecommendEntityCell.xib in Resources */,
+				44E67A8D24C552F6002C278F /* SongEntityCell.xib in Resources */,
+				44E67A8124C54381002C278F /* CommonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,15 +522,22 @@
 			files = (
 				447FB63524C46D650080980C /* SeacherController.swift in Sources */,
 				440059E424C1B98F00B31AE9 /* BaseTabbarController.swift in Sources */,
+				44E67A7F24C54376002C278F /* CommonView.swift in Sources */,
+				44E67A8424C5441F002C278F /* CommonViewCell.swift in Sources */,
 				440059B624C1AB9300B31AE9 /* AppDelegate.swift in Sources */,
 				440059E924C1C38B00B31AE9 /* CommonConstant.swift in Sources */,
 				447FB63124C333D20080980C /* DiscoveryController.swift in Sources */,
 				440059E624C1BC4C00B31AE9 /* BaseTabBar.swift in Sources */,
 				440059EE24C1C61F00B31AE9 /* UIColor-Extention.swift in Sources */,
 				447FB62F24C31B150080980C /* UIView-Extention.swift in Sources */,
+				44E67A8824C550C6002C278F /* RecommendSongViewCell.swift in Sources */,
+				44E67A9024C561CB002C278F /* RecommendEntityCell.swift in Sources */,
+				44E67A9824C59BD7002C278F /* MusicCalendarCell.swift in Sources */,
 				447FB63324C44B690080980C /* SearchResultsVC.swift in Sources */,
 				44718B8424C526240051730C /* DiscoveryTopViewCell.swift in Sources */,
+				44E67A8C24C552F6002C278F /* SongEntityCell.swift in Sources */,
 				447FB63724C47ED90080980C /* CycleView.swift in Sources */,
+				44E67A9424C56393002C278F /* RecommendEntityDetailCell.swift in Sources */,
 				440059F024C1CFD100B31AE9 /* UIBtton-Extention.swift in Sources */,
 				447FB63C24C524880080980C /* ViewCycleCell.swift in Sources */,
 				440059EB24C1C4CF00B31AE9 /* BaseNavController.swift in Sources */,

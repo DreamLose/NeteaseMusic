@@ -9,10 +9,30 @@
 import UIKit
 
 class DiscoveryTopViewCell: UICollectionViewCell {
-
+    fileprivate lazy var cycleView : CycleView = {
+        let cycleView = CycleView.cycleView()
+        return cycleView
+    }()
+    fileprivate lazy var commonView : CommonView = {
+        let commonView = CommonView.commonView()
+        return commonView
+    }()
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        cycle.addSubview(cycleView)
+        commonV.addSubview(commonView)
     }
-
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        cycleView.snp.makeConstraints { (maker) in
+            maker.size.equalToSuperview()
+        }
+        commonView.snp.makeConstraints { (maker) in
+            maker.size.equalToSuperview()
+        }
+////        cycleView.frame = cycle.frame
+//        commonView.frame = commonV.frame
+    }
+    @IBOutlet weak var commonV: UIView!
+    @IBOutlet weak var cycle: UIView!
 }

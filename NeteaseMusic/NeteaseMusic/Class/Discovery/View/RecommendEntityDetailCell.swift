@@ -1,5 +1,5 @@
 //
-//  ViewCycleCell.swift
+//  RecommendEntityDetailCell.swift
 //  NeteaseMusic
 //
 //  Created by 2020 on 2020/7/20.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ViewCycleCell: UICollectionViewCell {
+class RecommendEntityDetailCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    @IBOutlet weak var img: UIImageView!
 }

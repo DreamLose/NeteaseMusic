@@ -17,16 +17,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="255"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82d-5x-hpA" customClass="CycleView" customModule="网易云音乐" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="155"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82d-5x-hpA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="82d-5x-hpA" secondAttribute="height" multiplier="75:31" id="VyR-Ji-m81"/>
+                            <constraint firstAttribute="width" secondItem="82d-5x-hpA" secondAttribute="height" multiplier="5:2" id="bfY-9V-yAr"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2E-KY-Trg">
-                        <rect key="frame" x="0.0" y="155" width="375" height="100"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="frame" x="0.0" y="150" width="375" height="105"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </subviews>
             </view>
@@ -40,6 +40,10 @@
                 <constraint firstAttribute="trailing" secondItem="82d-5x-hpA" secondAttribute="trailing" id="zdb-J0-Veo"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="commonV" destination="a2E-KY-Trg" id="lor-8S-uUe"/>
+                <outlet property="cycle" destination="82d-5x-hpA" id="teW-J3-QZy"/>
+            </connections>
             <point key="canvasLocation" x="138.40579710144928" y="98.772321428571431"/>
         </collectionViewCell>
     </objects>

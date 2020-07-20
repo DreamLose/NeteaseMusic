@@ -9,7 +9,13 @@
 import UIKit
 import SnapKit
 fileprivate let KTopStaticCellH : CGFloat = KScreenW *  17 / 25
+fileprivate let KRecommendSongCellH : CGFloat = KScreenW * 2 / 5
+fileprivate let KRecommendEntityCellH : CGFloat = KScreenW * 27 / 50
 fileprivate let kTopCellId : String = "kTopCellId"
+fileprivate let DiscoveryTopViewCellID : String = "DiscoveryTopViewCellID"
+fileprivate let RecommendSongViewCellID : String = "RecommendSongViewCellID"
+fileprivate let RecommendEntityCellID : String = "RecommendEntityCellID"
+fileprivate let MusicCalendarCellID : String = "MusicCalendarCellID"
 class DiscoveryController: UIViewController {
     //MARK: ------- 导航栏搜索框 待优化
     fileprivate lazy var searchText : UIView = {
@@ -51,7 +57,14 @@ class DiscoveryController: UIViewController {
         let collection = UICollectionView(frame: view.bounds, collectionViewLayout: layout)
         collection.autoresizingMask = [.flexibleHeight,.flexibleWidth]
         collection.dataSource = self
+        collection.delegate = self
         collection.register(UICollectionViewCell.self, forCellWithReuseIdentifier: kTopCellId)
+        collection.register(UINib(nibName: "DiscoveryTopViewCell", bundle: nil), forCellWithReuseIdentifier: DiscoveryTopViewCellID)
+        collection.register(UINib(nibName: "RecommendSongViewCell", bundle: nil), forCellWithReuseIdentifier: RecommendSongViewCellID)
+        collection.register(UINib(nibName: "RecommendEntityCell", bundle: nil), forCellWithReuseIdentifier: RecommendEntityCellID)
+        collection.register(UINib(nibName: "MusicCalendarCell", bundle: nil), forCellWithReuseIdentifier: MusicCalendarCellID)
+        collection.backgroundColor = UIColor.white
+        
         return collection
     }()
     
@@ -102,16 +115,45 @@ extension DiscoveryController {
 
 
 //MARK: ------- UICOllectionDelegate
-extension DiscoveryController : UICollectionViewDataSource {
+extension DiscoveryController : UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 13
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if indexPath.item == 0 {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DiscoveryTopViewCellID, for: indexPath) as! DiscoveryTopViewCell
+            return cell
+        }
+        if indexPath.item == 1 || indexPath.item == 4 || indexPath.item == 5 || indexPath.item == 6 || indexPath.item == 8 || indexPath.item == 10 || indexPath.item == 12 {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RecommendSongViewCellID, for: indexPath) as! RecommendSongViewCell
+            return cell
+        }
+        if indexPath.item == 2 || indexPath.item == 7 || indexPath.item == 9 || indexPath.item == 11 {
+//            自定义分页滑动速度过快带优化
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RecommendEntityCellID, for: indexPath) as! RecommendEntityCell
+            return cell
+        }
+        if indexPath.item == 3 {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MusicCalendarCellID, for: indexPath) as! MusicCalendarCell
+            return cell
+        }
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kTopCellId, for: indexPath)
         cell.contentView.backgroundColor = indexPath.item % 2 == 0 ? UIColor.red : UIColor.green
         return cell
     }
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+           if indexPath.item == 0 {
+               return CGSize(width: KScreenW, height: KTopStaticCellH)
+           }
+            if indexPath.item == 2 || indexPath.item == 7 || indexPath.item == 9 || indexPath.item == 11  {
+                return CGSize(width: KScreenW, height: KRecommendEntityCellH)
+            }
+            if indexPath.item == 3 {
+                return CGSize(width: KScreenW, height: 140)
+            }
+           return CGSize(width: KScreenW, height: KRecommendSongCellH)
+       }
     
 }
