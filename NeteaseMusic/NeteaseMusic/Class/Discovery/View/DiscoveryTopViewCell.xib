@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DiscoveryTopViewCell" customModule="网易云音乐" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="255"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="255"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82d-5x-hpA" customClass="CycleView" customModule="网易云音乐" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="155"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="82d-5x-hpA" secondAttribute="height" multiplier="75:31" id="VyR-Ji-m81"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2E-KY-Trg">
+                        <rect key="frame" x="0.0" y="155" width="375" height="100"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="a2E-KY-Trg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5Mx-w1-oIK"/>
+                <constraint firstAttribute="trailing" secondItem="a2E-KY-Trg" secondAttribute="trailing" id="CGE-DM-Kbu"/>
+                <constraint firstItem="82d-5x-hpA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JCp-gs-9Fi"/>
+                <constraint firstItem="82d-5x-hpA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Kbj-WH-EqC"/>
+                <constraint firstItem="a2E-KY-Trg" firstAttribute="top" secondItem="82d-5x-hpA" secondAttribute="bottom" id="alA-tx-cGJ"/>
+                <constraint firstAttribute="bottom" secondItem="a2E-KY-Trg" secondAttribute="bottom" id="eQZ-be-Okp"/>
+                <constraint firstAttribute="trailing" secondItem="82d-5x-hpA" secondAttribute="trailing" id="zdb-J0-Veo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <point key="canvasLocation" x="138.40579710144928" y="98.772321428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>

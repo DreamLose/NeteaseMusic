@@ -3,25 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		440059B624C1AB9300B31AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059B524C1AB9300B31AE9 /* AppDelegate.swift */; };
-		440059BA24C1AB9300B31AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059B924C1AB9300B31AE9 /* ViewController.swift */; };
-		440059BD24C1AB9300B31AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440059BB24C1AB9300B31AE9 /* Main.storyboard */; };
 		440059BF24C1AB9600B31AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440059BE24C1AB9600B31AE9 /* Assets.xcassets */; };
 		440059C224C1AB9600B31AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440059C024C1AB9600B31AE9 /* LaunchScreen.storyboard */; };
+		440059E424C1B98F00B31AE9 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059E324C1B98F00B31AE9 /* BaseTabbarController.swift */; };
+		440059E624C1BC4C00B31AE9 /* BaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059E524C1BC4C00B31AE9 /* BaseTabBar.swift */; };
+		440059E924C1C38B00B31AE9 /* CommonConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059E824C1C38B00B31AE9 /* CommonConstant.swift */; };
+		440059EB24C1C4CF00B31AE9 /* BaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059EA24C1C4CF00B31AE9 /* BaseNavController.swift */; };
+		440059EE24C1C61F00B31AE9 /* UIColor-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059ED24C1C61F00B31AE9 /* UIColor-Extention.swift */; };
+		440059F024C1CFD100B31AE9 /* UIBtton-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440059EF24C1CFD100B31AE9 /* UIBtton-Extention.swift */; };
+		44718B8424C526240051730C /* DiscoveryTopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44718B8224C526240051730C /* DiscoveryTopViewCell.swift */; };
+		44718B8524C526240051730C /* DiscoveryTopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44718B8324C526240051730C /* DiscoveryTopViewCell.xib */; };
+		447FB62F24C31B150080980C /* UIView-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB62E24C31B150080980C /* UIView-Extention.swift */; };
+		447FB63124C333D20080980C /* DiscoveryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB63024C333D20080980C /* DiscoveryController.swift */; };
+		447FB63324C44B690080980C /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB63224C44B690080980C /* SearchResultsVC.swift */; };
+		447FB63524C46D650080980C /* SeacherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB63424C46D650080980C /* SeacherController.swift */; };
+		447FB63724C47ED90080980C /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB63624C47ED90080980C /* CycleView.swift */; };
+		447FB63924C523870080980C /* CycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447FB63824C523870080980C /* CycleView.xib */; };
+		447FB63C24C524880080980C /* ViewCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB63A24C524880080980C /* ViewCycleCell.swift */; };
+		447FB63D24C524880080980C /* ViewCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447FB63B24C524880080980C /* ViewCycleCell.xib */; };
+		ADE73C6FB41D7048D383CF92 /* Pods_NeteaseMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6BDF0666E6358C2449CEF6 /* Pods_NeteaseMusic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		440059B224C1AB9300B31AE9 /* NeteaseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeteaseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074846460570FF820C9C9D08 /* Pods-NeteaseMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusic.release.xcconfig"; path = "Target Support Files/Pods-NeteaseMusic/Pods-NeteaseMusic.release.xcconfig"; sourceTree = "<group>"; };
+		440059B224C1AB9300B31AE9 /* 网易云音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易云音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		440059B524C1AB9300B31AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		440059B924C1AB9300B31AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		440059BC24C1AB9300B31AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		440059BE24C1AB9600B31AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440059C124C1AB9600B31AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440059C324C1AB9600B31AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440059E324C1B98F00B31AE9 /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		440059E524C1BC4C00B31AE9 /* BaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseTabBar.swift; path = NeteaseMusic/Class/Base/Controller/BaseTabBar.swift; sourceTree = SOURCE_ROOT; };
+		440059E824C1C38B00B31AE9 /* CommonConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConstant.swift; sourceTree = "<group>"; };
+		440059EA24C1C4CF00B31AE9 /* BaseNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavController.swift; sourceTree = "<group>"; };
+		440059ED24C1C61F00B31AE9 /* UIColor-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extention.swift"; sourceTree = "<group>"; };
+		440059EF24C1CFD100B31AE9 /* UIBtton-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBtton-Extention.swift"; sourceTree = "<group>"; };
+		44718B8224C526240051730C /* DiscoveryTopViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTopViewCell.swift; sourceTree = "<group>"; };
+		44718B8324C526240051730C /* DiscoveryTopViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoveryTopViewCell.xib; sourceTree = "<group>"; };
+		447FB62E24C31B150080980C /* UIView-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extention.swift"; sourceTree = "<group>"; };
+		447FB63024C333D20080980C /* DiscoveryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryController.swift; sourceTree = "<group>"; };
+		447FB63224C44B690080980C /* SearchResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
+		447FB63424C46D650080980C /* SeacherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeacherController.swift; sourceTree = "<group>"; };
+		447FB63624C47ED90080980C /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		447FB63824C523870080980C /* CycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CycleView.xib; sourceTree = "<group>"; };
+		447FB63A24C524880080980C /* ViewCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCycleCell.swift; sourceTree = "<group>"; };
+		447FB63B24C524880080980C /* ViewCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCycleCell.xib; sourceTree = "<group>"; };
+		9A6BDF0666E6358C2449CEF6 /* Pods_NeteaseMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeteaseMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE41F68919FAC1BA4BE0F9F /* Pods-NeteaseMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusic.debug.xcconfig"; path = "Target Support Files/Pods-NeteaseMusic/Pods-NeteaseMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE73C6FB41D7048D383CF92 /* Pods_NeteaseMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,13 +73,15 @@
 			children = (
 				440059B424C1AB9300B31AE9 /* NeteaseMusic */,
 				440059B324C1AB9300B31AE9 /* Products */,
+				60CBEE86CF8647FD2E4221A1 /* Pods */,
+				D7B2B7C7B7674D5B81B2A914 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		440059B324C1AB9300B31AE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				440059B224C1AB9300B31AE9 /* NeteaseMusic.app */,
+				440059B224C1AB9300B31AE9 /* 网易云音乐.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +89,269 @@
 		440059B424C1AB9300B31AE9 /* NeteaseMusic */ = {
 			isa = PBXGroup;
 			children = (
+				440059C924C1B3AB00B31AE9 /* Class */,
 				440059B524C1AB9300B31AE9 /* AppDelegate.swift */,
-				440059B924C1AB9300B31AE9 /* ViewController.swift */,
-				440059BB24C1AB9300B31AE9 /* Main.storyboard */,
 				440059BE24C1AB9600B31AE9 /* Assets.xcassets */,
 				440059C024C1AB9600B31AE9 /* LaunchScreen.storyboard */,
 				440059C324C1AB9600B31AE9 /* Info.plist */,
 			);
 			path = NeteaseMusic;
+			sourceTree = "<group>";
+		};
+		440059C924C1B3AB00B31AE9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				440059E724C1C36900B31AE9 /* Commen */,
+				440059CA24C1B3AB00B31AE9 /* Music */,
+				440059CE24C1B3AB00B31AE9 /* Video */,
+				440059D224C1B3AB00B31AE9 /* Friend */,
+				440059D624C1B3AB00B31AE9 /* Tools */,
+				440059D724C1B3AB00B31AE9 /* Discovery */,
+				440059DB24C1B3AB00B31AE9 /* Account */,
+				440059DF24C1B3AB00B31AE9 /* Base */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		440059CA24C1B3AB00B31AE9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				440059CB24C1B3AB00B31AE9 /* Controller */,
+				440059CC24C1B3AB00B31AE9 /* Model */,
+				440059CD24C1B3AB00B31AE9 /* View */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		440059CB24C1B3AB00B31AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440059CC24C1B3AB00B31AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440059CD24C1B3AB00B31AE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440059CE24C1B3AB00B31AE9 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				440059CF24C1B3AB00B31AE9 /* Controller */,
+				440059D024C1B3AB00B31AE9 /* Model */,
+				440059D124C1B3AB00B31AE9 /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		440059CF24C1B3AB00B31AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440059D024C1B3AB00B31AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440059D124C1B3AB00B31AE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440059D224C1B3AB00B31AE9 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				440059D324C1B3AB00B31AE9 /* Controller */,
+				440059D424C1B3AB00B31AE9 /* Model */,
+				440059D524C1B3AB00B31AE9 /* View */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		440059D324C1B3AB00B31AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440059D424C1B3AB00B31AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440059D524C1B3AB00B31AE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440059D624C1B3AB00B31AE9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				440059EC24C1C5FE00B31AE9 /* Extents */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		440059D724C1B3AB00B31AE9 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				440059D824C1B3AB00B31AE9 /* Controller */,
+				440059D924C1B3AB00B31AE9 /* Model */,
+				440059DA24C1B3AB00B31AE9 /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		440059D824C1B3AB00B31AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				447FB63024C333D20080980C /* DiscoveryController.swift */,
+				447FB63224C44B690080980C /* SearchResultsVC.swift */,
+				447FB63424C46D650080980C /* SeacherController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440059D924C1B3AB00B31AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440059DA24C1B3AB00B31AE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				447FB63624C47ED90080980C /* CycleView.swift */,
+				447FB63824C523870080980C /* CycleView.xib */,
+				447FB63A24C524880080980C /* ViewCycleCell.swift */,
+				447FB63B24C524880080980C /* ViewCycleCell.xib */,
+				44718B8224C526240051730C /* DiscoveryTopViewCell.swift */,
+				44718B8324C526240051730C /* DiscoveryTopViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440059DB24C1B3AB00B31AE9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				440059DC24C1B3AB00B31AE9 /* Controller */,
+				440059DD24C1B3AB00B31AE9 /* Model */,
+				440059DE24C1B3AB00B31AE9 /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		440059DC24C1B3AB00B31AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440059DD24C1B3AB00B31AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440059DE24C1B3AB00B31AE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440059DF24C1B3AB00B31AE9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				440059E024C1B3AB00B31AE9 /* Controller */,
+				440059E124C1B3AB00B31AE9 /* Model */,
+				440059E224C1B3AB00B31AE9 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		440059E024C1B3AB00B31AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				440059E324C1B98F00B31AE9 /* BaseTabbarController.swift */,
+				440059EA24C1C4CF00B31AE9 /* BaseNavController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440059E124C1B3AB00B31AE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440059E224C1B3AB00B31AE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				440059E524C1BC4C00B31AE9 /* BaseTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440059E724C1C36900B31AE9 /* Commen */ = {
+			isa = PBXGroup;
+			children = (
+				440059E824C1C38B00B31AE9 /* CommonConstant.swift */,
+			);
+			path = Commen;
+			sourceTree = "<group>";
+		};
+		440059EC24C1C5FE00B31AE9 /* Extents */ = {
+			isa = PBXGroup;
+			children = (
+				440059ED24C1C61F00B31AE9 /* UIColor-Extention.swift */,
+				440059EF24C1CFD100B31AE9 /* UIBtton-Extention.swift */,
+				447FB62E24C31B150080980C /* UIView-Extention.swift */,
+			);
+			path = Extents;
+			sourceTree = "<group>";
+		};
+		60CBEE86CF8647FD2E4221A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFE41F68919FAC1BA4BE0F9F /* Pods-NeteaseMusic.debug.xcconfig */,
+				074846460570FF820C9C9D08 /* Pods-NeteaseMusic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7B2B7C7B7674D5B81B2A914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A6BDF0666E6358C2449CEF6 /* Pods_NeteaseMusic.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 440059C624C1AB9600B31AE9 /* Build configuration list for PBXNativeTarget "NeteaseMusic" */;
 			buildPhases = (
+				A497BB173E2C34DFF1A2D430 /* [CP] Check Pods Manifest.lock */,
 				440059AE24C1AB9300B31AE9 /* Sources */,
 				440059AF24C1AB9300B31AE9 /* Frameworks */,
 				440059B024C1AB9300B31AE9 /* Resources */,
+				5BECD29DB10D77309EEE1D1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -81,7 +373,7 @@
 			);
 			name = NeteaseMusic;
 			productName = NeteaseMusic;
-			productReference = 440059B224C1AB9300B31AE9 /* NeteaseMusic.app */;
+			productReference = 440059B224C1AB9300B31AE9 /* 网易云音乐.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,35 +414,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447FB63924C523870080980C /* CycleView.xib in Resources */,
+				447FB63D24C524880080980C /* ViewCycleCell.xib in Resources */,
 				440059C224C1AB9600B31AE9 /* LaunchScreen.storyboard in Resources */,
 				440059BF24C1AB9600B31AE9 /* Assets.xcassets in Resources */,
-				440059BD24C1AB9300B31AE9 /* Main.storyboard in Resources */,
+				44718B8524C526240051730C /* DiscoveryTopViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BECD29DB10D77309EEE1D1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeteaseMusic/Pods-NeteaseMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeteaseMusic/Pods-NeteaseMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeteaseMusic/Pods-NeteaseMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A497BB173E2C34DFF1A2D430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeteaseMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		440059AE24C1AB9300B31AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440059BA24C1AB9300B31AE9 /* ViewController.swift in Sources */,
+				447FB63524C46D650080980C /* SeacherController.swift in Sources */,
+				440059E424C1B98F00B31AE9 /* BaseTabbarController.swift in Sources */,
 				440059B624C1AB9300B31AE9 /* AppDelegate.swift in Sources */,
+				440059E924C1C38B00B31AE9 /* CommonConstant.swift in Sources */,
+				447FB63124C333D20080980C /* DiscoveryController.swift in Sources */,
+				440059E624C1BC4C00B31AE9 /* BaseTabBar.swift in Sources */,
+				440059EE24C1C61F00B31AE9 /* UIColor-Extention.swift in Sources */,
+				447FB62F24C31B150080980C /* UIView-Extention.swift in Sources */,
+				447FB63324C44B690080980C /* SearchResultsVC.swift in Sources */,
+				44718B8424C526240051730C /* DiscoveryTopViewCell.swift in Sources */,
+				447FB63724C47ED90080980C /* CycleView.swift in Sources */,
+				440059F024C1CFD100B31AE9 /* UIBtton-Extention.swift in Sources */,
+				447FB63C24C524880080980C /* ViewCycleCell.swift in Sources */,
+				440059EB24C1C4CF00B31AE9 /* BaseNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		440059BB24C1AB9300B31AE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				440059BC24C1AB9300B31AE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		440059C024C1AB9600B31AE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,37 +618,41 @@
 		};
 		440059C724C1AB9600B31AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE41F68919FAC1BA4BE0F9F /* Pods-NeteaseMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V2KP2TYG;
 				INFOPLIST_FILE = NeteaseMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fly.im.NeteaseMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "网易云音乐";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		440059C824C1AB9600B31AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074846460570FF820C9C9D08 /* Pods-NeteaseMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V2KP2TYG;
 				INFOPLIST_FILE = NeteaseMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fly.im.NeteaseMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "网易云音乐";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
